@@ -44,5 +44,5 @@ Build a Web Application that scrapes various websites for data related to Mars a
 * Converted Jupyter Notebook into a Python Script called `scrape_mars.py` with a function called `scrape` that will execute all of the scraping code from above and return one Python Dictionary containing all of the scraped data
 * Created a route called `/scrape` that will import the `scrape_mars.py` script and call the `scrape` function
     * Stored the return value in Mongo as a Python Dictionary
-* Create a root route `/` that will query the Mongo database and pass the Mars data into an HTML template to display the data
-* Create a template HTML file called `index.html` that will take the Mars data dictionary and display all of the data in the appropriate HTML elements
+* Created a root route `/` that will query the Mongo database and pass the Mars data into an HTML template to display the data
+* Created a template HTML file called `index.html` that will take the Mars data dictionary and display all of the data in the appropriate HTML elements
